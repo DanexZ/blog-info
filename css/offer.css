@@ -1,0 +1,53 @@
+
+.offer {
+  margin-top: -100px;
+}
+
+.offer h3 {
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.offer ul {
+  width: 45%;
+  margin-left: 35%
+}
+
+.offer li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.offer li span {
+  display: block;
+  flex-basis: 92%;
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.offer img {
+  width: 20px;
+  height: auto;
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+@media (max-width: 750px) {
+
+  .offer span {
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 600px) {
+  .offer {
+    margin-top: 0;
+  }
+
+  .offer ul {
+    width: 100%;
+    margin-left: 0;
+  }
+
+}

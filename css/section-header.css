@@ -1,0 +1,42 @@
+/* Section header */
+.section-header {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 70px 20px 30px 20px;
+  color: black;
+  background-color: transparent;
+}
+
+.section-header h3 {
+  margin: 0;
+  font-weight: 900;
+  opacity: 0; 
+  transition: all 1s ease;
+}
+
+.section-header h3:after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: black;
+  margin: 30px auto 27px;
+}
+
+.section-header img {
+  margin: 20px auto;
+}
+
+.section-header p { margin: 0; }
+
+@media (max-width: 800px) {
+  .section-header {
+      padding-top: 35px;
+      padding-bottom: 55px;
+  }
+  
+  .page-footer .section-header {
+      padding-top: 15px;
+  }
+}

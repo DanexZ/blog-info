@@ -1,0 +1,139 @@
+.testimonials
+{
+  padding-bottom: 40px;
+}
+
+.testimonials > .container 
+{
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.testimonial-item
+{
+  flex-basis: 30%;
+  min-width: 343px;
+  position: relative;
+  margin-bottom: 60px;
+  padding: 4rem 2rem 2rem 2rem;
+  color: rgb(100,100,100);
+  border: 2px solid blueviolet;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.testimonial-item p
+{
+  font-style: italic!important; 
+}
+
+.testimonial-item img
+{
+  position: absolute;
+  top: -3rem;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  border: 2px solid purple;
+  z-index: 2;
+}
+
+.t-item1 i
+{
+  color: blueviolet;
+}
+
+.t-item1 img
+{
+  border-color: blueviolet;
+}
+
+.t-item2
+{
+  border-color: orange;
+}
+
+.t-item2 > img
+{
+  border-color: orange;
+}
+
+.t-item2 i
+{
+  color: orange;
+}
+
+.t-item3
+{
+  border-color: brown;
+}
+
+.t-item3 img
+{
+  border-color: brown;
+}
+
+.t-item3 i
+{
+  color: brown;
+}
+
+.testimonial-item strong
+{
+  display: block;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.testimonial-item i
+{
+  font-size: 2rem;
+}
+
+.testimonial-item p
+{
+  text-align: center;
+}
+
+.rating strong::after
+{
+  content: "";
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: rgb(200,200,200);
+  margin: 15px auto 12px;
+}
+
+.rating ul
+{
+  margin-top: 5px;
+  text-align: center;
+}
+
+.rating > p
+{
+  margin: 0;
+}
+
+.rating ul li
+{
+  display: inline-block;
+}
+
+.appear
+{
+  opacity: 1!important;
+  transform: translateY(20px);
+}
+
+@media (max-width: 414px)
+{
+  .testimonial-item
+  {
+    min-width: 284px;
+  }
+}

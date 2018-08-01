@@ -1,0 +1,14 @@
+.about {
+  text-align: center;
+}
+
+.about h3, .about p, .about img {
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.about img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
